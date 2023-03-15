@@ -1,0 +1,30 @@
+.box{
+    display: inline-block; /*en linea pero como bloques*/
+    width: 100px; /*ancho*/;
+    height: 100px; /*altura*/
+    background-color: brown; /*fondo*/
+    color: white; /*color texto*/
+}
+/*hacia donde van los elementos*/
+
+#two{
+    position: static; /*Static, relative, sticky, absolute y fixed*/
+    top: 20px;
+    left: 20px;
+}
+/*donde se posicionan*/
+#three{
+    position: relative; 
+    top: 20px;
+    left: 20px;
+    background: rgb(199, 15, 153);
+}
+
+
+.texto1{
+    width: 600px;
+    height: 600px;
+    overflow: visible; /*hidden>quitaElSobrante-scroll>Permite el scroll visible-auto>escrollPeroInvisible*/
+    padding-left: 150px; 
+}
+/*como se navega*/
